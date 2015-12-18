@@ -1,0 +1,16 @@
+#+TITLE: README
+#+DATE: <2015-12-18>
+#+AUTHOR: Takuya Okada
+
+* What is TimeRecorder?
+  TimeRecorder is a simple add-on to record your reference durations of web pages and post these records to [DTB](https://github.com/nomlab/DTB).
+
+* Acknowledgement
+  This code refers to [Mind the Time](https://addons.mozilla.org/ja/firefox/addon/mind-the-time/).
+
+* Version
+  1.0
+
+* Install and Setup
+  1) Drag and Drop timerecorder.xpi to your Firefox.
+  2) From about:addons page, set Your DTB (Rails application) base URL.
