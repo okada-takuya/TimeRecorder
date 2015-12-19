@@ -5,7 +5,7 @@
     "description": "TimeRecorder records your reference durations of web pages and post these records to DTB.",
     "author":      "Takuya Okada",
     "license":     "MPL 2.0",
-    "version":     "1.0.0",
+    "version":     "1.0.1",
     "main":        "./lib/main.js",
     "permissions": {
       "cross-domain-content": ["http://localhost:3000"]

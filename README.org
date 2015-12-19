@@ -9,7 +9,7 @@
   This code refers to [Mind the Time](https://addons.mozilla.org/ja/firefox/addon/mind-the-time/).
 
 * Version
-  1.0
+  1.0.1
 
 * Install and Setup
   1) Drag and Drop timerecorder.xpi to your Firefox.
