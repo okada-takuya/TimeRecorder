@@ -1,20 +1,20 @@
 {
-    "name": "timerecorder",
-    "title": "TimeRecorder",
     "id":          "jid1-JT9iA58cvudyYg@jetpack",
+    "name":        "timerecorder",
+    "title":       "TimeRecorder",
     "description": "TimeRecorder records your reference durations of web pages and post these records to DTB.",
-    "author": "Takuya Okada",
-    "license": "MPL 2.0",
+    "author":      "Takuya Okada",
+    "license":     "MPL 2.0",
     "version":     "1.0.0",
     "main":        "./lib/main.js",
     "permissions": {
       "cross-domain-content": ["http://localhost:3000"]
     },
     "preferences": [{
-        "name": "DTBURL",
-        "title": "Your DTB URL",
+        "name":        "DTBURL",
+        "title":       "Your DTB URL",
         "description": "Input your DTB URL (application root)",
-        "type": "string",
-        "value": "http://localhost:3000"
+        "type":        "string",
+        "value":       "http://localhost:3000"
     }]
 }
