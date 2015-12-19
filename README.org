@@ -14,3 +14,29 @@
 * Install and Setup
   1) Drag and Drop timerecorder.xpi to your Firefox.
   2) From about:addons page, set Your DTB (Rails application) base URL.
+
+* For Developer
+** Install jpm
+   The jpm command enables you to test, run, and package add-ons.
+
+   1) Install npm (check for https://github.com/npm/npm details)
+      #+BEGIN_SRC sh
+      $ curl -L https://www.npmjs.com/install.sh | sh
+      #+END_SRC
+
+   2) Install jqm (check for https://developer.mozilla.org/en-US/Add-ons/SDK/Tools/jpm details)
+      #+BEGIN_SRC sh
+      $ sudo npm install jpm --global
+      #+END_SRC
+
+** Test
+   1) Launch an instance of Firefox with your add-on installed
+      #+BEGIN_SRC sh
+      $ jqm run
+      #+END_SRC
+
+** Package
+   1) Package your add-on as an XPI file, which is the install file format for Firefox add-ons.
+      #+BEGIN_SRC sh
+      $ jpm xpi
+      #+END_SRC
