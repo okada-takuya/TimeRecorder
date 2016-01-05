@@ -12,8 +12,9 @@
   1.0.1
 
 * Install and Setup
-  1) Drag and Drop timerecorder.xpi to your Firefox
-  2) From about:addons page, set Your DTB (Rails application) base URL
+  1) Set xpinstall.signatures.required to false on [[about:config][about:config]] page.
+  2) Drag and Drop timerecorder.xpi to your Firefox
+  3) From about:addons page, set Your DTB (Rails application) base URL
 
 * For Developer
 ** Install jpm
